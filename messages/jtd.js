@@ -10,6 +10,7 @@ module.exports = {
   // supported locales
   _locales: [
     "en",
+    "bg",
     "ca",
     "cs",
     "de",
@@ -39,6 +40,7 @@ module.exports = {
   // error messages
   _defaultMessage: {
     en: 'must pass "{{=e.keyword}}" keyword validation',
+    bg: 'трябва да премине валидиране по ключовата дума "{{=e.keyword}}"',
     ca: 'ha de passar la validació de la clau "{{=e.keyword}}"',
     cs: 'musí vyhovět "{{=e.keyword}}" validaci',
     de: 'muss die Validierung "{{=e.keyword}}" bestehen',
@@ -65,6 +67,7 @@ module.exports = {
       t: "{{var t = e.params.type; var n = e.params.nullable ? '/null' : '';}}",
     },
     en: "{{#def.t}}must be {{=t+n}}",
+    bg: "{{#def.t}} трябва да бъде {{=t+n}}",
     ca: "{{#def.t}}ha de ser del tipus {{=t+n}}",
     cs: "{{#def.t}}musí být {{=t+n}}",
     de: "{{#def.t}}muss sein: {{=t+n}}",
@@ -98,6 +101,7 @@ module.exports = {
     _type: true,
     additional: {
       en: "must NOT have additional properties",
+      bg: "не трябва да има допълнителни свойства",
       ca: "no ha de tenir propietats addicionals",
       cs: "nemůže mít další položky",
       de: "darf keine zusätzlichen Attribute haben",
@@ -122,6 +126,7 @@ module.exports = {
     },
     missing: {
       en: "must have property {{=e.params.missingProperty}}",
+      bg: "трябва да има свойството {{=e.params.missingProperty}}",
       ca: "ha de tenir la propietat requerida {{=e.params.missingProperty}}",
       cs: "musí obsahovat požadovanou položku {{=e.params.missingProperty}}",
       de: "muss das erforderliche Attribut {{=e.params.missingProperty}} enthalten",
@@ -150,6 +155,7 @@ module.exports = {
     _type: true,
     tag: {
       en: 'tag "{{=e.params.tag}}" must be string',
+      bg: 'таг "{{=e.params.tag}}" трябва да е низ',
       de: 'der Tag "{{=e.params.tag}}" muss eine Zeichenkette sein',
       fi: 'tunniste "{{=e.params.tag}}" täytyy olla merkkijono',
       it: 'il tag "{{=e.params.tag}}" deve essere di tipo stringa',
@@ -163,6 +169,7 @@ module.exports = {
     },
     mapping: {
       en: 'value of tag "{{=e.params.tag}}" must be in mapping',
+      bg: 'стойността на тага "{{=e.params.tag}}" трябва да бъде една от',
       de: 'der Wert vom Tag "{{=e.params.tag}}" muss im Mapping enthalten sein',
       fi: 'tunnisteen arvon "{{=e.params.tag}}" on oltava kartoituksessa',
       it: 'il valore del tag "{{=e.params.tag}}" deve essere nei mapping',
@@ -178,6 +185,7 @@ module.exports = {
 
   enum: {
     en: "must be equal to one of the allowed values",
+    bg: "трябва да бъде равно на една от позволените стойности",
     ca: "ha de ser igual a un dels valors predefinits",
     cs: "musí být rovno jedné hodnotě z výčtu",
     de: "muss einem der vorgegebenen Werte entsprechen",
@@ -203,6 +211,7 @@ module.exports = {
 
   union: {
     en: 'must match a schema in "union"',
+    bg: 'трябва да съвпада със схема в "union"',
     ca: 'ha de coincidir amb algun esquema definit a "union"',
     cs: 'musí vyhovět alespoň jednomu schématu v "union"',
     de: 'muss einem der Schemata in "union" entsprechen',

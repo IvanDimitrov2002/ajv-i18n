@@ -13,6 +13,7 @@ Internationalised error messages for [Ajv](https://github.com/ajv-validator/ajv)
 |------|:-------:|:---------:|:------:|:------:|:------:|:------:|:------:|
 |🇬🇧 en|English  | |✓|✓|✓|✓|✓|
 |AR ar|Arabic   |[Mahmoud-Mardeni](https://github.com/Mahmoud-Mardeni)|✓|✓|✓|-|-|
+|🇧🇬 bg|Bulgarian    |[IvanDimitrov2002](https://github.com/IvanDimitrov2002)|✓|✓|✓|✓|✓|
 |CA ca|Catalan   |[alexandreec](https://github.com/alexandreec)|✓|✓|✓|-|*|
 |🇨🇿 cs|Czech    |[kiskovacs](https://github.com/kiskovacs)<br>[NAM0007](https://github.com/NAM0007)|✓<br>&nbsp;|✓<br>&nbsp;|<br>✓|-|*|
 |🇩🇪 de|German   |[jmtoball](https://github.com/jmtoball)<br>[gflohr](https://github.com/gflohr)|✓<br>&nbsp;|✓<br>&nbsp;|<br>✓|✓<br>&nbsp;|✓<br>&nbsp;|
